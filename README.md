@@ -13,3 +13,13 @@ Unordered List	- First item
 Code	`code`
 Horizontal Rule	---
 Link	[title](https://www.example.com)
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
